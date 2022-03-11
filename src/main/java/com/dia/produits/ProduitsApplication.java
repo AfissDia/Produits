@@ -18,7 +18,6 @@ private ProduitRepository produitRepository;
 
     @Override
     public void run(String... args) throws Exception {
-        Produit produit1 = new Produit("disque","4000","36","Colobane","762341296");
-        produitRepository.save(produit1);
+        
     }
 }
